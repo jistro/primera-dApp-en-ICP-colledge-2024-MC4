@@ -28,7 +28,7 @@ function App() {
       <div>
         <input type="text" placeholder="Nombre" />
         <input type="text" placeholder="Texto" />
-        <button onClick={mandarSaludo}>Saludar</button>
+        <button onClick={mandarSaludo}>Mandar saludo</button>
         <button onClick={devolverSaludos}>Devolver saludos</button>
         {saludos && (
           <>
